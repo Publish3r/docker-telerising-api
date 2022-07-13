@@ -125,7 +125,7 @@ sudo docker run \
   -v /opt/telerising:/telerising \
   -p 5000:5000 \
   --name=telerising \
-  --restart=unless-stopped \
+  --restart=always \
   --net=bridge \
   takealug/new-telerising-api:latest
 ```
