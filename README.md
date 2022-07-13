@@ -67,10 +67,10 @@ If you like my Work, please [![Paypal Donation Page](https://www.paypalobjects.c
 Create OpenVPN folder and ovpn file:
 
 ```
-mkdir /opt/ovpn\
-  && cd /opt/ovpn\
-  && touch vpn.ovpn\
-  && nano vpn.ovpn\
+mkdir /opt/ovpn \
+  && cd /opt/ovpn \
+  && touch vpn.ovpn \
+  && nano vpn.ovpn \
 ```
 
 Start OpenVPN docker container:
@@ -95,7 +95,7 @@ sudo docker run \
 Start Telerising docker container:
   
 ``` 
-  sudo docker run \
+sudo docker run \
   -d \
   -e USER_ID="0" \
   -e GROUP_ID="0" \
