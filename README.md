@@ -70,7 +70,7 @@ Create OpenVPN folder and ovpn file:
 mkdir /opt/ovpn \
   && cd /opt/ovpn \
   && touch vpn.ovpn \
-  && nano vpn.ovpn \
+  && nano vpn.ovpn
 ```
 
 Start OpenVPN docker container:
